@@ -212,7 +212,7 @@
     .lista-menu {
         display: none;
         position: absolute;
-        top: 20%;
+        top: 15%;
         width: 60vw;
         border: solid 1px var(--green-strong);
         border-radius: 5vw;

@@ -5,14 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="shortcut icon" href="/assets/img/logo japher.png"/>
+    <link rel="shortcut icon" href="./assets/img/logo japher.png"/>
     <title>Serviços | JAPHER Assessoria</title>
 </head>
 <body>
     <header class="header">
         <section>
             <div class="logo-access">
-                <img class="img-logo" src="/assets/img/Logo da Japher.BMP" alt="Logo japher">
+                <div class="container">
+                    <input type="checkbox" id="menu" class="container__botao">
+                    <label for="menu">
+                        <span class="cabecalho__menu-hamburguer container__imagem"></span>
+                    </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu__item">
+                            <a href="index.html" class="lista-menu__link">Home</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="../#about-us" class="lista-menu__link">Sobre</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="services.html" class="lista-menu__link">Serviços</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="clients.html" class="lista-menu__link">Principais Clientes</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="../#contact" class="lista-menu__link">Contato</a>
+                        </li>
+                    </ul>
+                </div>                
+                <img class="img-logo" src="./assets/img/Logo_da_Japher.BMP" alt="Logo japher">
                 <h1 class="h1-title">Japher Assessoria Contábil</h1>
                 <form action="http://www.centraldecontabilidade.com.br/econtabil/login.asp?x=0&amp;log_=in" method="post" accept-charset="utf-8" name="frmLogin" id="form_documentos" class="form-login" target="_blank">
                     <h2 class="form-text-access">Acessar Impostos</h2>
@@ -40,11 +63,11 @@
         </section>
         <section class="contact-numbers">
             <div class="number-contact">
-                <img src="/assets/img/call.png" alt="Icone telefone" class="call-icon">
+                <img src="./assets/img/call.png" alt="Icone telefone" class="call-icon">
                 <h2>(11) 3363 8000</h2>
             </div>
             <a class="number-contact" href="https://api.whatsapp.com/send?phone=5511942057637&amp;text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os!%22" target="_blank">
-                <img src="/assets/img/whatsapp.png" alt="Icone whatsapp" class="call-icon">
+                <img src="./assets/img/whatsapp.png" alt="Icone whatsapp" class="call-icon">
                 <h2>(11) 94205 7637</h2>
             </a>
         </section>
@@ -55,9 +78,9 @@
         <div class="grid-services">
             <div class="grid-services-department">
                 <h2 class="service-color">Contábil</h2>
-                <p >A Área Contábil é responsável pelo processamento das movimentações econômicas e financeiras de empresas e entidades, possibilitando a geração de informações contábeis e gerenciais.</p>
+                <p>A Área Contábil é responsável pelo processamento das movimentações econômicas e financeiras de empresas e entidades, possibilitando a geração de informações contábeis e gerenciais.</p>
                 <br>
-                <p>Conheça alguns dos nossos Serviços Contábeis:</p>
+                <p class="more-about-service">Conheça alguns dos nossos Serviços Contábeis:</p>
                 <br>
                 <ul>
                     <li>Elaboração de balancetes, balanços patrimoniais.</li>
@@ -77,7 +100,7 @@
                 <h2 class="service-color">Fiscal e Tributário</h2>
                 <p>A Área Fiscal é responsável pelo processamento das movimentações fiscais geradas pelas empresas ou entidades. Os trabalhos desse setor são desenvolvidos por técnicos altamente qualificados, que permitem apuração segura dos tributos devidos, utilizando o que há de melhor em tecnologia.</p>
                 <br>
-                <p>Conheça alguns dos nossos serviços fiscal e tributário:</p>
+                <p class="more-about-service">Conheça alguns dos nossos serviços fiscal e tributário:</p>
                 <br>
                 <ul>
                     <li>Escrituração dos livros fiscais legais.</li>
@@ -96,7 +119,7 @@
                 <h2 class="service-color">Trabalhista</h2>
                 <p>Esta área é imprescindível para qualquer empresa, sendo responsável pela execução de toda a rotina de departamento de pessoal. Cabe ainda a esta área a apuração dos tributos e das guias de recolhimento, além de dar consultoria específica referente à legislação pertinente, nas áreas Trabalhista, Previdenciária, Fundiária e Sindical.</p>
                 <br>
-                <p>Conheça alguns dos nossos Serviços da área Trabalhista:</p>
+                <p class="more-about-service">Conheça alguns dos nossos Serviços da área Trabalhista:</p>
                 <br>
                 <ul>
                     <li>Admissão e rescisão de funcionários.</li>
@@ -117,7 +140,7 @@
                 <h2 class="service-color">Paralegal</h2>
                 <p>A área Societária presta serviços completos em questões que envolvem a parte legal (administrativa) das empresas junto aos órgãos públicos e privados.</p>
                 <br>
-                <p>Conheça alguns dos nossos Serviços Societários:</p>
+                <p class="more-about-service">Conheça alguns dos nossos Serviços Societários:</p>
                 <br>
                 <ul>
                     <li>Aberturas, Alterações e Encerramento de Empresas, Associações, Entidades Esportivas, Religiosas e Pessoas Jurídicas sem Fins Lucrativos, em geral;</li>
@@ -149,7 +172,7 @@
                 <h2 class="service-color">Outros Serviços</h2>
                 <p>Além dos serviços para sua empresa, contamos também com diversos serviços para pessoa física.</p>
                 <br>
-                <p>Veja alguns dos serviços que realizamoes para pessoa física:</p>
+                <p class="more-about-service">Veja alguns dos serviços que realizamoes para pessoa física:</p>
                 <br>
                 <ul>
                     <li>Elaboração de IRPF;</li>

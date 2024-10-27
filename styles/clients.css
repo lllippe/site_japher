@@ -58,3 +58,46 @@
 .extra-extra-margin {
     margin-top: 18vw;
 }
+
+.client-title-phone {
+    display: none;
+}
+
+@media screen and (max-width:425px) {
+    .area-title {
+        display: none;
+    }
+
+    .client-title-phone {
+        display: block;
+        font-family: Lobster;
+        text-align: center;
+        font-weight: 200;
+        font-size: 10vw;
+        color: var(--green-strong);
+    }
+    
+    .img-logo-item {
+        width: 45vw;
+    }
+
+    .extra-margin {
+        margin-top: 2vw;
+    }
+
+    .extra-extra-margin {
+        margin-top: 3vw;
+    }
+
+    .img-logo-clients {
+        padding-bottom: 12vw;
+    }
+
+    .hr-divider-clients {
+        width: 85vw;
+    }
+
+    .header {
+        margin-bottom: 6vw;
+    }
+}

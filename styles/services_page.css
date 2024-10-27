@@ -25,4 +25,38 @@
 .color-size {
     font-size: 5vw;
     margin-top: 5vw;
+    font-family: var(--font-big-principal);
+    font-weight: 200;
+    font-size: 5.5vw;
+    color: var(--green-strong);
+    text-align: center;
+}
+
+@media screen and (max-width:425px) {
+    .color-size {
+        font-size: 8vw;
+    }    
+
+    .grid-services {
+        grid-template-columns: auto;
+    }
+
+    .service-color {
+        font-size: 5vw;
+    }
+
+    .grid-services-department {
+        justify-items: center;
+        font-size: 2.8vw;
+        font-family: Open Sans;
+        font-weight: 500;
+        width: 90%;
+        color: var(--green-strong);
+        margin: 5vw 0;
+        text-align: justify;
+    }
+
+    .more-about-service {
+        font-weight: 700;
+    }
 }

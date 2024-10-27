@@ -250,7 +250,7 @@
     }
 
     .h1-title {
-        background-image: url("/assets/img/logo_japher_png.png");
+        background-image: url("../assets/img/logo_japher_png.png");
         background-position: center;
         background-size: 20vw;
         background-repeat: no-repeat;

@@ -1,0 +1,41 @@
+/*--------------------/
+/---- informações ----/
+/--------------------*/
+
+.informations{
+    background-color: var(--light-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-informations {
+    width: 35%;
+    margin-left: 3em;
+}
+
+.informations-text {
+    font-family: var(--font-big-principal);
+    font-weight: 200;
+    font-size: 5vw;
+    color: var(--green-strong);
+    text-align: center;
+    padding: 2em;
+}
+
+@media screen and (max-width:425px) {
+    .informations {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .img-informations {
+        width: 50%;
+        margin-left: 0vw;
+    }
+
+    .informations-text {
+        font-size: 7vw;
+        padding: 4vw;
+    }
+}

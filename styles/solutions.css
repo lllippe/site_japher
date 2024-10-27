@@ -1,0 +1,24 @@
+/*--------------------/
+/---- soluções vc ----/
+/--------------------*/
+
+.for-you {
+    margin: 3vw 20vw;
+}
+
+.for-you-text {
+    font-family: Swanky and Moo Moo;
+    font-size: 4vw;
+    color: var(--green-strong);
+    text-align: center;
+}
+
+@media screen and (max-width:425px) {
+    .for-you-text {
+        font-size: 7vw;
+    }    
+
+    .for-you {
+        margin: 3vw 10vw;
+    }
+}

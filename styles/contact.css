@@ -1,0 +1,99 @@
+/*--------------------/
+/------ Contato ------/
+/--------------------*/
+
+.grid-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-h2 {
+    font-family: var(--font-big-principal);
+    font-weight: 200;
+    color: var(--green-strong);
+    font-size: 5vw;
+    text-align: center;
+    margin: 10vw 0 10vw 0;
+}
+
+.contact-map {
+    margin: 1vw;
+    width: 40vw;
+    height: 35vw;
+}
+
+.form-text {
+    font-family: Open Sans;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: var(--green-strong);
+}
+
+.form-field {
+    border: solid 1px var(--green-strong);
+    border-radius: 0.2em;
+    width: 40vw;
+    height: 3vw;
+    margin: 0.8vw 0;
+    padding: 0.2vw;
+    font-size: 1.5vw;
+    color: var(--green-strong);
+}
+
+.message {
+    height: 15vw;
+    text-align: start;
+}
+
+.form-field:focus {
+    background-color: var(--green-strong);
+    color: var(--white-base);
+    padding: 1vw;
+}
+
+.form-button {
+    background-color: var(--green-strong);
+    color: var(--white-base);
+    font-size: 1.3vw;
+    font-weight: 600;
+    text-align: center;
+    height: 4vw;
+    width: 20vw;
+    margin-bottom: 2vw;
+    margin-left: 11vw;
+    border-radius: 0.5em;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em;
+}
+
+.form-button:hover {
+    background-color: var(--light-green);
+    color: var(--green-strong);
+}
+
+@media screen and (max-width:425px) {
+    .contact-map {
+        display: none;
+    }
+
+    .contact-h2 {
+        font-size: 8vw;
+        margin: 6vw;
+    }
+
+    .form-text {
+        font-size: 3vw;
+    }
+
+    .form-field {
+        width: 60vw;
+    }
+
+    .form-button {
+        width: 30vw;
+        margin-left: 15vw;
+        font-size: 3vw;
+        height: 6vw;
+    }
+
+}

@@ -1,0 +1,101 @@
+/*--------------------/
+/------ Japher -------/
+/--------------------*/
+
+.about {
+    margin-top: 10vw;
+}
+
+.master-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.first-grid {
+    display: flex;
+}
+
+.show-paragraph {
+    margin: 4vw 2vw;
+    border: solid 1px var(--green-strong);
+    border-radius: 0.8em;
+    padding: 6vw;
+    width: 30vw;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em var(--green-strong);
+}
+
+.grid-box-title {
+    font-size: 4vw;
+    text-align: center;
+    font-family: /*Swanky and Moo Moo*/Lobster;
+    color: var(--green-strong);
+    margin-bottom: 3vw;
+}
+
+.grid-box-text {
+    font-size: 1.2vw;
+    font-family: Open Sans;
+    color: var(--green-strong);
+    text-align: justify;
+}
+
+.grid-box-name {
+    font-size: 1.5vw;
+    font-family: Open Sans;
+    color: var(--green-strong);
+    margin-top: 2vw;
+    margin-bottom: 0.2vw;
+}
+
+.second-grid {
+    display: flex;
+}
+
+.second-style{
+    width: 20vw;
+    padding: 3vw;
+}
+
+.about-h2 {
+    font-family: var(--font-big-principal);
+    font-weight: 200;
+    color: var(--green-strong);
+    font-size: 5vw;
+    text-align: center;
+    margin: 10vw 0 10vw 0;
+}
+
+@media screen and (max-width:425px) {
+    .second-style {
+        display: none;
+    }
+
+    .first-grid {
+        flex-direction: column;
+    }
+
+    .show-paragraph {
+        width: 80%;
+        margin-left: 4vw;
+    }
+
+    .grid-box-title {
+        font-size: 6vw;
+    }
+
+    .grid-box-text {
+        font-size: 3vw;
+    }
+
+    .grid-box-name {
+        font-size: 3.5vw;
+    }
+    .about-h2 {
+        font-size: 8vw;
+    }
+
+    .swiper-slide {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="/assets/img/logo japher.png"/>
+    <title>Japher Assessoria Contábil</title>
+</head>
+<body>
+    <header class="header">
+        <section class="logo-access">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                    <span class="cabecalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="index.html" class="lista-menu__link">Home</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#about-us" class="lista-menu__link">Sobre</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="services.html" class="lista-menu__link">Serviços</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="clients.html" class="lista-menu__link">Principais Clientes</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#contact" class="lista-menu__link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <img class="img-logo" src="/assets/img/Logo_da_Japher.BMP" alt="Logo japher">
+            <h1 class="h1-title">Japher Assessoria Contábil</h1>
+            <form class="form-login" action="http://www.centraldecontabilidade.com.br/econtabil/login.asp?x=0&amp;log_=in" method="post" accept-charset="utf-8" name="frmLogin" id="form_documentos" target="_blank">
+                <h2 class="form-text-access">Acessar Impostos</h2>
+                <fieldset class="fieldset">
+                    <div class="input-doc-min">
+                        <input type="text" name="txtLogin" id="login"  class="text-login validate[required]" size="20"/>
+                    </div>
+                    <div class="input-doc-min">
+                        <input type="password" name="txtSenha" id="senha" class="text-login validate[required]" size="20"/>
+                    </div>
+                    <input type="hidden" name="txtdominio" value="japher" />
+                    <button type="submit" class="button-text">Entrar</button>
+                </fieldset>
+            </form>
+        </section>
+        <section class="nav-bar">
+            <a class="nav-style" href="index.html">Home</a>
+            <a class="nav-style" href="#about-us">Sobre</a>
+            <a class="nav-style" href="services.html">Serviços</a>
+            <a class="nav-style" href="clients.html">Principais Clientes</a>
+            <a class="nav-style" href="#contact">Contato</a>
+        </section>
+        <section class="contact-numbers">
+            <div class="number-contact">
+                <img src="/assets/img/call.png" alt="Icone telefone" class="call-icon">
+                <h2>(11) 3363 8000</h2>
+            </div>
+            <a class="number-contact" href="https://api.whatsapp.com/send?phone=5511942057637&amp;text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os!%22" target="_blank">
+                <img src="/assets/img/whatsapp.png" alt="Icone whatsapp" class="call-icon">
+                <h2>(11) 94205 7637</h2>
+            </a>
+        </section>
+    </header>
+
+    <main>
+        <section class="carrossel-services">
+            <h2 class="carrossel-services-h2">Temos a solução para a sua empresa!</h2>
+            <div class="swiper-services">
+                
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                  
+                    <div class="swiper-slide">
+                        <div class="card-services">
+                            <h2 class="title-list-card">Contábil</h2>
+                            <ul class="list-group-itens">
+                                <li class="item-list">
+                                    Elaboração de balancetes, balanços patrimoniais.
+                                </li>
+                                <li class="item-list">
+                                    Processamento de informações contábeis.
+                                </li>
+                                <li class="item-list">
+                                    Apuração de tributos provenientes da escrituração contábil.
+                                </li>
+                                <li class="item-list">
+                                    Elaboração de Demonstrações Financeiras.
+                                </li>
+                                <li class="item-list click-link">
+                                    <a href="/services.html" class="link-text-services">Saiba mais clicando aqui.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-services">
+                            <h2 class="title-list-card">Fiscal e Tributário</h2>
+                            <ul class="list-group-itens">
+                                <li class="item-list">
+                                    Elaboração de balancetes, balanços patrimoniais.
+                                </li>
+                                <li class="item-list">
+                                    Processamento de informações contábeis.
+                                </li>
+                                <li class="item-list">
+                                    Apuração de tributos provenientes da escrituração contábil.
+                                </li>
+                                <li class="item-list">
+                                    Elaboração de Demonstrações Financeiras.
+                                </li>
+                                <li class="item-list click-link">
+                                    <a href="/services.html" class="link-text-services">Saiba mais clicando aqui.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-services">
+                            <h2 class="title-list-card">Paralegal</h2>
+                            <ul class="list-group-itens">
+                                <li class="item-list">
+                                    Parcelamento de débitos fiscais.
+                                </li>
+                                <li class="item-list">
+                                    Atas de assembléias, registro e sua implementação.
+                                </li>
+                                <li class="item-list">
+                                    Registro de Capital junto ao Banco Central.
+                                </li>
+                                <li class="item-list click-link">
+                                    <a href="/services.html" class="link-text-services">Saiba mais clicando aqui.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-services">
+                            <h2 class="title-list-card">Trabalhista</h2>
+                            <ul class="list-group-itens">
+                                <li class="item-list">
+                                    Admissão e rescisão de funcionários.
+                                </li>
+                                <li class="item-list">
+                                    Atualização de CTPS e Ficha Eletrônica.
+                                </li>
+                                <li class="item-list">
+                                    Férias.
+                                </li>
+                                <li class="item-list">
+                                    13º Salário.
+                                </li>
+                                <li class="item-list click-link">
+                                    <a href="/services.html" class="link-text-services">Saiba mais clicando aqui.</a>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+            </div>
+            <img src="/assets/img/Japhinho.png" alt="Logo humanizado joia" class="japhinho-joia-carrossel">
+
+        </section>
+        <section class="green-about">
+            <div class="elements-text">
+                <div class="list-box">
+                    <div class="list-tags">
+                        <img src="/assets/img/contabil.png" alt="Vetor tela computador" class="vector-images">
+                        <div class="description-services">
+                            <h2 class="title-list">Contábil</h2>    
+                            <ul class="list-group-itens">
+                                <li class="item-list">
+                                    Elaboração de balancetes, balanços patrimoniais.
+                                </li>
+                                <li class="item-list">
+                                    Processamento de informações contábeis.
+                                </li>
+                                <li class="item-list">
+                                    Apuração de tributos provenientes da escrituração contábil.
+                                </li>
+                                <li class="item-list">
+                                    Elaboração de Demonstrações Financeiras.
+                                </li>
+                                <li class="item-list click-link">
+                                    <a href="/services.html" class="link-text-services">Saiba mais clicando aqui.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="hr-divider">
+                    <div class="list-tags">
+                        <img src="/assets/img/fiscal.png" alt="Vetor finanças" class="vector-images">
+                        <div class="description-services">
+                            <h2 class="title-list">Fiscal e Tributário</h2> 
+                            <ul class="list-group-itens">
+                                <li class="item-list">
+                                    Escrituração dos livros fiscais legais.
+                                </li>
+                                <li class="item-list">
+                                    Emissão e orientação para emissão de N.F.
+                                </li>
+                                <li class="item-list">
+                                    Elaboração das obrigações acessórias.
+                                </li>
+                                <li class="item-list click-link">
+                                    <a href="/services.html" class="link-text-services">Saiba mais clicando aqui.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="hr-divider">
+                    <div class="list-tags">
+                        <img src="/assets/img/legal.png" alt="Vetor contratos" class="vector-images">
+                        <div class="description-services">
+                            <h2 class="title-list">Paralegal</h2> 
+                            <ul class="list-group-itens">
+                                <li class="item-list">
+                                    Parcelamento de débitos fiscais.
+                                </li>
+                                <li class="item-list">
+                                    Atas de assembléias, registro e sua implementação.
+                                </li>
+                                <li class="item-list">
+                                    Registro de Capital junto ao Banco Central.
+                                </li>
+                                <li class="item-list click-link">
+                                    <a href="/services.html" class="link-text-services">Saiba mais clicando aqui.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="hr-divider">
+                    <div class="list-tags">
+                        <img src="/assets/img/rh.png" alt="Vetor trabalho" class="vector-images">
+                        <div class="description-services">
+                            <h2 class="title-list">Trabalhista</h2> 
+                            <ul class="list-group-itens">
+                                <li class="item-list">
+                                    Admissão e rescisão de funcionários.
+                                </li>
+                                <li class="item-list">
+                                    Atualização de CTPS e Ficha Eletrônica.
+                                </li>
+                                <li class="item-list">
+                                    Férias.
+                                </li>
+                                <li class="item-list">
+                                    13º Salário.
+                                </li>
+                                <li class="item-list click-link">
+                                    <a href="/services.html" class="link-text-services">Saiba mais clicando aqui.</a>
+                                </li>
+                            </ul>               
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elements-photo">
+                <h2 class="white-grafitti">Temos a solução para a sua empresa!</h2>
+                <img src="/assets/img/Japhinho.png" alt="Logo humanizado joia" class="japhinho-joia">
+            </div>
+        </section>
+
+        <section class="declarations">
+            <h2 class="declarations-h2">Como estão suas declarações contábeis?</h2>
+            <div class="grid-side">
+                <img src="/assets/img/EFD ICMSIPI.png" class="sped-img" alt="Detalhamento Declarações Sped">
+                <div class="paragraph-sped">
+                    <p class="sped-text">
+                        Nos dias de hoje, com toda a tecnologia disponível, ficou muito mais fácil para o fisco controlar todas as operações e ter uma posição em tempo real das transações realizadas por sua empresa.
+                    </p>
+                    <p class="sped-text"> 
+                        Com isso, as informações nas declarações são extremamente importantes e muitas vezes não são informadas corretamente acarretando problemas futuros como autuações e multas.
+                    </p>    
+                    <p class="sped-text">
+                        Na Japher você conta com os melhores profissionais para execução e auditoria das informações apresentadas nas declarações, trazendo tranquilidade para sua empresa.
+                    </p>
+                    <p class="sped-text">
+                        Não é cliente Japher e deseja fazer uma auditoria nas suas declarações e verificar a situação que se encontra? Entre em contato conosco que teremos o prazer em atendê-lo!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="informations">
+            <img src="/assets/img/Japhinho + lion.png" alt="Logo japher fazendo carinho leão" class="img-informations">
+            <h2 class="informations-text">
+                Venha para a Japher e tenha a tranquilidade das informações contábeis da sua empresa!
+            </h2>
+        </section>
+
+        <section class="for-you">
+            <h2 class="for-you-text">Já viu que pode contar com a Japher para soluções contábeis para sua empresa né? Mas e para você?</h2>
+        </section>
+
+        <section class="irpf-section">
+            <h2 class="irpf-section-paragraph">Contamos também com especialistas na elaboração do IRPF. Deixe com quem tem mais de 45 anos de experiência.</h2>
+            <img src="/assets/img/Japhinho come with me.png" alt="Logo humanizado joia" class="japhinho-come-with-me">
+        </section>
+
+        <section class="system">
+            <h2 class="system-h2">Sistemas que operamos:</h2>
+
+            <section class="carrossel">
+                <div class="swiper">
+                    
+                    <div class="swiper-pagination"></div>
+    
+                    <div class="swiper-wrapper">
+                      
+                      <div class="swiper-slide"><img src="/assets/img/totvs.png" alt="Logo Totvs"></div>
+                      <div class="swiper-slide"><img src="/assets/img/sap.png" alt="Logo SAP"></div>
+                      <div class="swiper-slide"><img src="/assets/img/nbs.png" alt="Logo NBS"></div>
+                      <div class="swiper-slide"><img src="/assets/img/prosoft.png" alt="Logo Prosoft"></div>
+                      <div class="swiper-slide"><img src="/assets/img/linx.png" alt="Logo Linx"></div>
+                    </div>
+                 
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                </div>
+            </section>
+
+            <div class="grid-systems">
+                <img src="/assets/img/totvs.png" alt="Logo Totvs" class="grid-system-img">
+                <img src="/assets/img/sap.png" alt="Logo SAP" class="grid-system-img">
+                <img src="/assets/img/nbs.png" alt="Logo NBS" class="grid-system-img">
+                <img src="/assets/img/prosoft.png" alt="Logo Prosoft" class="grid-system-img">
+                <img src="/assets/img/linx.png" alt="Logo Linx" class="grid-system-img">
+            </div>
+            <p class="system-paragraph">Há ainda a possibilidade de usar o Protheus na sua empresa, na nossa base, reduzindo e muito os custos com sistemas! Nos consulte para maiores informações.</p>
+        </section>
+
+        <section class="about" id="about-us">
+            <h2 class="about-h2">A JAPHER</h2>
+            <div class="master-grid">
+                <div class="first-grid">
+                    <div class="show-paragraph">
+                        <h1 class="grid-box-title">Sobre Nós</h1>
+                        <p class="grid-box-text">A Japher Assessoria Contábil possui larga experiência no seguimento de contabilidade, atuando no mercado desde 1979, atendendo a pequenas, médias e grandes empresas dos mais diversos ramos de atividade, contando com profissionais qualificados para poder informar e orientar com excelência nossos clientes. Sediada estrategicamente no centro histórico de São Paulo, área privilegiada por estar próxima a repartições do governo federal, estadual e municipal, além de bancos, centros comerciais e grandes prestadores de serviços. Conta também com o fácil acesso ao transporte público como ônibus, metrô e trens. Estamos localizados a 4 km da Avenida Paulista, 11 km da Avenida Engenheiro Luiz Carlos Berrini e a 12 km do aeroporto de Congonhas.</p>
+                    </div>
+                    <div class="show-paragraph">
+                        <h1 class="grid-box-title">Diretores</h1>
+                        <p class="grid-box-name"><b>ADIMAR DE JESUS PELISSARI</b></p>
+                        <ul class="director-list">
+                            <li class="grid-box-text">Bacharel em Ciências Contábeis, atuando no mercado há mais de 30 anos.</li>
+                            <li class="grid-box-text">Experiência sólida e ampla na área de Departamento Pessoal.</li>
+                            <li class="grid-box-text">Registrado no CRC sob nº 1SP154.226/0-0.</li>
+                        </ul>
+                        <p class="grid-box-name"><b>JOSÉ ADEMIR PELISSARI</b></p>
+                        <ul class="director-list">
+                            <li class="grid-box-text">Bacharel em Ciências Contábeis, atuando no mercado há mais de 35 anos.</li>
+                            <li class="grid-box-text">Experiência sólida e ampla na área operacional em administração de diversas empresas.</li>
+                            <li class="grid-box-text">Registrado no CRC sob nº. 1SP105.475/0-2.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="second-grid">
+                    <div class="show-paragraph second-style">
+                        <h1 class="grid-box-title">Missão</h1>
+                        <p class="grid-box-text">Atender com excelência, agilidade e o mais alto padrão de qualidade as diversas demandas de nossos clientes, em todos os ramos de atuação, de forma inovadora, colaborativa, superando expectativas a fim de proporcionar a total satisfação e crescimento contínuo de todos os elos.</p>
+                    </div>
+                    <div class="show-paragraph second-style">
+                        <h1 class="grid-box-title">Visão</h1>
+                        <p class="grid-box-text">Ser referência nacional na prestação de serviços contábeis, e estar sempre na vanguarda com relação à tecnologia, capacitação, atendimento, com o intuito de promover o desenvolvimento de nossos, colaboradores, clientes, parceiros e demais integrantes da sociedade.</p>
+                    </div>
+                    <div class="show-paragraph second-style">
+                        <h1 class="grid-box-title">Valores</h1>
+                        <p class="grid-box-text">Atuar como parceiros de nossos clientes e colaboradores, com organização e objetividade no desenvolvimento de soluções simples, práticas e personalizadas, contribuir com o crescimento do negócio de nossos clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="contact-h2">Contato</h2>
+            <div class="grid-contact">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4349.79080874985!2d-46.639553006180165!3d-23.54244535872915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58512be80bb9%3A0xed24af20f90ca1b5!2sR.%20Ant%C3%B4nio%20de%20God%C3%B3i%2C%2088%20-%20Centro%20Hist%C3%B3rico%20de%20S%C3%A3o%20Paulo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001034-902!5e0!3m2!1spt-BR!2sbr!4v1729515570016!5m2!1spt-BR!2sbr" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="contact-map">Japher Assessoria Contábil</iframe>
+                <form class="contact-form">
+                    <label for="email" class="form-text">Nome *</label><br>
+                    <input type="text" id="name" name="name" class="form-field" required><br>
+                    <label for="email" class="form-text">Email *</label><br>
+                    <input type="text" id="mail" name="mail" class="form-field" required><br>
+                    <label for="assunto" class="form-text">Assunto *</label><br>
+                    <input type="text" id="subject" name="subject" class="form-field" required><br>
+                    <label for="message" class="form-text">Mensagem *</label><br>
+                    <input type="text-area" id="message" name="message" class="form-field message" required><br>
+                    <button class="form-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-list">
+            <li>Rua Antonio de Godoi, 88 - 4 º Andar</li> 
+            <li>Centro - São Paulo, SP CEP: 01034-000</li> 
+            <li>51.745.826/0001-10</li> 
+            <li>Tel:  011 3363-8000</li>
+            <li>Fax: 011 3363-8039</li>
+        </ul>
+        <a class="footer-text" href="https://www.frpelissari.com/" target="_blank">Desenvolvido por FRPelissari</a>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 50,
+            slidesPerView: 2,
+            pagination : {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+        const swiper_services = new Swiper('.swiper-services', {
+            spaceBetween: 50,
+            slidesPerView: 1,
+            pagination : {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+
+</body>
+</html>

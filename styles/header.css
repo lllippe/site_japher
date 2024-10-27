@@ -1,0 +1,270 @@
+/*--------------------/
+/--      Header     --/
+/--------------------*/
+
+.logo-access {
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+}
+
+.img-logo {
+    margin-top: 5vw;
+    margin-left: 5vw;    
+    height: 10vw;
+}
+
+.h1-title {
+    text-align: center;
+    font-family: Gruppo;
+    font-size: 7vw;
+    color: var(--green-strong);
+    padding-top: 0.6vw;
+}
+
+/*--------------------/
+/--- Login impostos --/
+/--------------------*/
+
+.form-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2vw;
+    width: 18vw;
+    border: solid 2px var(--green-strong);
+    border-radius: 0.5vw;
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw var(--green-strong);
+    padding: 1vw;
+}
+
+.form-text-access {
+    font-size: 2vw;
+    text-align: center;
+    font-family: Open Sans;
+    color: var(--green-strong);
+    padding: 0.2vw;
+}
+
+.fieldset {
+    border: none;
+    width: 10vw;
+}
+
+.input-doc-min {
+    height: 3vw;
+    font-size: 1vw;
+}
+
+.text-login {
+    height: 2.5vw;
+    width: 15vw;
+    margin: 0.8vw 1.5vw;
+    border-radius: 0.4vw;
+    padding: 0.05vw;
+    font-size: 1.2vw;
+}
+
+.input-doc-min{
+    width: 18vw;
+}
+
+.button-doc-min {
+    background-color: var(--green-strong);
+    align-items: center;
+    width: 16vw;
+    margin: 1.5vw 0 0.8vw 0.8vw;
+    border: solid 2px var(--green-strong);
+    border-radius: 0.8vw;
+}
+
+.button-doc-min:hover {
+    background-color: var(--white-base);
+    color: var(--green-strong);
+}
+
+.button-text {
+    background-color: var(--green-strong);
+    border: 0;
+    text-align: center;
+    font-family: var(--font-big-principal);
+    font-weight: 200;
+    font-size: 1.5vw;
+    color: var(--white-base);
+    padding: 0.25vw 4.6vw;
+    border-radius: 0.3em;
+    margin: 1em 0 0 1.5em;
+}
+
+.button-text:hover {
+    background-color: var(--white-base);
+    border: solid 1px var(--green-strong);
+    text-align: center;
+    font-family: var(--font-big-principal);
+    font-weight: 200;
+    font-size: 1.5vw;
+    color: var(--green-strong);
+}
+
+/*--------------------/
+/-- Barra Navegação --/
+/--------------------*/
+
+.nav-bar {
+    display: flex;
+    border: solid 0.2vw var(--green-strong);
+    border-radius: 0.9vw;
+    justify-content: center;
+    text-align: center;
+    margin: 1vw 2vw;
+    height: 2.2vw;
+}
+
+.nav-style {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4vw;
+    color: var(--green-strong);
+    font-weight: 500;
+    font-weight: bold;
+    padding-top: 0.2vw;
+    width: 25vw;
+    text-decoration: none;
+}
+
+.nav-style:hover {
+    background-color: var(--green-strong);
+    color: var(--white-base);
+    border-radius: 0.5em;
+}
+
+/*--------------------/
+/--    Contatos     --/
+/--------------------*/
+
+.contact-numbers {
+    display: flex;
+    justify-content: center;
+    gap: 30vw;
+    margin-bottom: 1.5vw;
+}
+
+.number-contact {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vw;
+    border: solid 0.2vw var(--green-strong);
+    border-radius: 0.5vw;
+    padding: 0.5vw 3vw 0.5vw 3vw;
+    color: var(--green-strong);
+    font-weight: bold;
+    font-family: Open Sans;
+    font-size: 1.2vw;
+    box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw var(--green-strong);
+    text-decoration: none;
+}
+
+.number-contact:hover {
+    background-color: var(--green-strong);
+    color: var(--white-base);
+}
+
+.call-icon {
+    width: 2.2em;
+}
+
+.container {
+    display: none;
+}
+
+@media screen and (max-width:425px) {
+    
+    .form-login, .nav-bar, .img-logo {
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer{
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/img/Menu.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+    }
+    
+    .cabecalho {
+        background-color: var(--branco);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .container__imagem {
+        padding: 1em;
+    }
+
+    .lista-menu {
+        display: none;
+        position: absolute;
+        top: 20%;
+        width: 60vw;
+        border: solid 1px var(--green-strong);
+        border-radius: 5vw;
+        background-color: var(--light-green);
+        box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw var(--green-strong);
+    }
+
+    .container__botao {
+        display: none;
+    }
+
+    .container__botao:checked ~ .lista-menu {
+        display: block;
+        list-style-type: circle;
+    }
+
+    .lista-menu__item {
+        padding: 2vw;
+    }
+
+    .lista-menu__link {
+        color: var(--green-strong);
+        text-decoration: none;   
+        font-family: Open sans;
+        font-weight: 600;
+        margin-left: 6vw;
+    }
+
+    .container__titulo {
+        display: none;
+    }
+    
+    .opcoes {
+        display: none;
+    }
+
+    .h1-title {
+        background-image: url("/assets/img/logo_japher_png.png");
+        background-position: center;
+        background-size: 20vw;
+        background-repeat: no-repeat;
+        padding: 4vw;
+        background-blend-mode: overlay;
+        font-size: 10vw;
+    }
+
+    .contact-numbers {
+        gap: 7vw;
+    }
+
+    .number-contact {
+        font-size: 2.5vw;
+        border-radius: 2vw;
+    }
+}

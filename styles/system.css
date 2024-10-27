@@ -1,0 +1,52 @@
+/*--------------------/
+/----- Sistemas ------/
+/--------------------*/
+
+.system-h2 {
+    font-family: var(--font-big-principal);
+    font-weight: 200;
+    color: var(--green-strong);
+    font-size: 5vw;
+    text-align: center;
+    margin: 10vw 0 10vw 0;
+}
+
+.grid-systems {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 0 5vw 11vw;
+}
+
+.grid-system-img {
+    width: 18vw;
+}
+
+.system-paragraph {
+    font-family: Open Sans;
+    font-size: 2vw;
+    font-weight: 700;
+    text-align: center;
+    margin: 6vw;
+}
+
+.carrossel {
+    display: none;
+}
+
+@media screen and (max-width:425px) {
+    .system-h2 {
+        font-size: 7vw;
+    }
+    
+    .system-paragraph {
+        font-size: 3.5vw;
+    }
+
+    .carrossel {
+        display: block;
+    }
+
+    .grid-system-img {
+        display: none;
+    }
+}

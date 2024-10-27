@@ -1,0 +1,63 @@
+/*--------------------/
+/---- declarações ----/
+/--------------------*/
+
+.declarations {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.declarations-h2 {
+    font-family: var(--font-big-principal);
+    font-weight: 200;
+    font-size: 5.5vw;
+    color: var(--green-strong);
+    text-align: center;
+    margin: 1vw;
+}
+
+.grid-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-sped {
+    padding: 5vw;
+}
+
+.sped-text {
+    color: var(--green-strong);
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-align: justify;
+    margin-bottom: 1.5vw;
+}
+
+.sped-img {
+    width: 50%;
+    margin-left: 1.5vw;
+}
+
+
+@media screen and (max-width:425px) {
+    .grid-side {
+        flex-wrap: wrap;
+    }
+
+    .sped-img {
+        width: 75%;
+        margin-top: 2vw;
+    }
+
+    .sped-text {
+        font-size: 2.5vw;
+    }
+
+    .declarations-h2 {
+        font-size: 8vw;
+    }
+}

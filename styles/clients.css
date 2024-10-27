@@ -1,0 +1,60 @@
+/*--------------------/
+/------ Clients ------/
+/--------------------*/
+
+.client-grid {
+    display: flex;
+    justify-items: center;
+}
+
+.area-title {
+    padding: 3vw;
+    margin: 5vw 1vw;
+}
+
+.client-title {
+    font-family: Lobster;
+    text-align: center;
+    font-weight: 200;
+    font-size: 4vw;
+    color: var(--green-strong);
+}
+
+.img-client {
+    width: 40vw;
+    margin: 2vw 0;
+}
+
+.img-logo-clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light-green);
+    justify-items: center;
+    padding: 5vw;
+    width: 100%;
+    gap: 12vw;
+}
+
+.img-logo-item {
+    width: 17vw;
+}
+
+.hr-divider-background {
+    background-color: var(--light-green);
+}
+
+.hr-divider-clients {
+    background-color: var(--green-strong);
+    height: 0.2vw;
+    border-radius: 0.5vw;
+    width: 60vw;       
+}
+
+.extra-margin {
+    margin-top: 8vw;
+}
+
+.extra-extra-margin {
+    margin-top: 18vw;
+}

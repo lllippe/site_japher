@@ -1,0 +1,41 @@
+/*--------------------/
+/------ Footer -------/
+/--------------------*/
+
+.footer {
+    background-color: var(--green-strong);
+    color: var(--white-base);
+    font-family: Open sans;
+    font-weight: 400;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.footer-list {
+    padding: 2.5vw;
+    list-style: none;
+    text-align: center;
+}
+
+.footer-text {
+    font-family: Swanky and Moo Moo;
+    font-size: 3vw;
+    text-decoration: none;
+    color: var(--white-base);
+}
+
+.footer-text:hover {
+    font-size: 5vw;
+    color: var(--light-green);
+}
+
+@media screen and (max-width:425px) {
+    .footer {
+        font-size: 3vw;
+    }
+
+    .footer-text {
+        font-size: 7vw;
+    }
+  
+}

@@ -1,0 +1,77 @@
+.carrossel-services {
+    display: none;
+}
+
+@media screen and (max-width:425px) {    
+    .carrossel-services {
+        display: block;
+        background-color: var(--light-green);
+        margin-top: 5vw;
+    }
+
+    .carrossel-services-h2 {
+        font-family: var(--font-big-principal);
+        font-weight: 200;
+        font-size: 8vw;
+        color: var(--green-strong);
+        text-align: center;
+        padding: 5vw;
+    }
+
+    .link-text-services {
+        color: var(--light-green);
+        font-size: 5vw;
+    }
+
+    .link-text-services:hover {
+        color: var(--light-green);
+        font-size: 5vw;
+    }
+
+    .card-services {
+        border-radius: 2vw;
+        background-color: var(--green-strong);
+        width: 80vw;
+        padding: 5vw;
+        margin-left: 5vw;
+        margin-bottom: 4vw;
+        box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw var(--green-strong);
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        margin: 4vw;
+    }
+    
+    .title-list-card {
+        font-size: 6vw;
+        color: var(--light-green);
+        text-align: center;
+        margin: 2vw;
+        font-family: var(--font-big-principal);
+        font-weight: 100;
+    }
+
+    .item-list {
+        font-family: Open Sans;
+        font-weight: 600;
+        padding: 1vw;
+        color: var(--white-base);
+        font-size: 3.5vw;
+        list-style-type: "- ";
+    }
+    
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+    
+    .swiper-pagination {
+        position: initial;
+        margin: 0.5em 0;
+    }
+
+    .japhinho-joia-carrossel {
+        width: 60vw;
+        margin: 5vw 17vw;
+    }
+}

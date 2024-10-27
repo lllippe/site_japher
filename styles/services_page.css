@@ -1,0 +1,28 @@
+/*--------------------/
+/----- Services ------/
+/--------------------*/
+
+.grid-services{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.service-color {
+    color: var(--green-strong);
+    text-align: center;
+    font-size: 2vw;
+    font-family: Open Sans;
+    margin-bottom: 2vw;
+}
+
+.grid-services-department {
+    padding: 2vw 6vw;
+    justify-items: start;
+    font-size: 1.2vw;
+    width: 70%;
+}
+
+.color-size {
+    font-size: 5vw;
+    margin-top: 5vw;
+}

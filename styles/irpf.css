@@ -1,0 +1,44 @@
+/*--------------------/
+/-------- IRPF -------/
+/--------------------*/
+
+.irpf-section{
+    display: grid;
+    background-color: var(--green-strong);
+    grid-template-columns: auto auto;
+    height: 53vw;
+}
+
+.irpf-section-paragraph{
+    font-family: var(--font-big-principal);
+    font-weight: 200;
+    color: var(--white-base);
+    font-size: 4vw;
+    width: 40vw;
+    margin: 10vw 0 0 8vw;
+    text-align: center;
+}
+
+.japhinho-come-with-me{
+    width: 35vw;
+    margin-top: 11vw;
+    margin-left: 4vw;
+}
+
+@media screen and (max-width:425px) {
+    .irpf-section {
+        grid-template-columns: auto;
+        justify-items: center;
+        height: 100vw;
+    }
+
+    .japhinho-come-with-me {
+        width: 40vw;
+    }
+
+    .irpf-section-paragraph {
+        font-size: 5.3vw;
+        width: 80%;
+        margin: 10vw 0 0 1vw;
+    }
+}

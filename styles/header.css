@@ -177,7 +177,7 @@
     display: none;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:780px) {
     
     .form-login, .nav-bar, .img-logo {
         display: none;

@@ -63,7 +63,7 @@
     display: none;
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:425px) {
     .area-title {
         display: none;
     }

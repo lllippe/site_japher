@@ -71,7 +71,7 @@
     color: var(--green-strong);
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:425px) {
     .contact-map {
         display: none;
     }

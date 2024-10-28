@@ -23,7 +23,7 @@
     padding: 2em;
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:425px) {
     .informations {
         flex-wrap: wrap;
         flex-direction: column-reverse;

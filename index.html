@@ -65,7 +65,7 @@
             </div>
             <a class="number-contact" href="https://api.whatsapp.com/send?phone=5511942057637&amp;text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os!%22" target="_blank">
                 <img src="./assets/img/whatsapp.png" alt="Icone whatsapp" class="call-icon">
-                <h2>(11) 94205 7637</h2>
+                <h2>Fale conosco</h2>
             </a>
         </section>
     </header>
@@ -388,17 +388,13 @@
             <h2 class="contact-h2">Contato</h2>
             <div class="grid-contact">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4349.79080874985!2d-46.639553006180165!3d-23.54244535872915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58512be80bb9%3A0xed24af20f90ca1b5!2sR.%20Ant%C3%B4nio%20de%20God%C3%B3i%2C%2088%20-%20Centro%20Hist%C3%B3rico%20de%20S%C3%A3o%20Paulo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001034-902!5e0!3m2!1spt-BR!2sbr!4v1729515570016!5m2!1spt-BR!2sbr" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="contact-map">Japher Assessoria Contábil</iframe>
-                <form class="contact-form">
-                    <label for="email" class="form-text">Nome *</label><br>
-                    <input type="text" id="name" name="name" class="form-field" required><br>
-                    <label for="email" class="form-text">Email *</label><br>
-                    <input type="text" id="mail" name="mail" class="form-field" required><br>
-                    <label for="assunto" class="form-text">Assunto *</label><br>
-                    <input type="text" id="subject" name="subject" class="form-field" required><br>
-                    <label for="message" class="form-text">Mensagem *</label><br>
-                    <input type="text-area" id="message" name="message" class="form-field message" required><br>
-                    <button class="form-button">Enviar</button>
-                </form>
+                <div class="contact-right">
+                    <h2 class="contact-call">Clique no link abaixo e fale conosco para iniciarmos uma parceria de sucesso!</h2>
+                    <a class="number-contact" href="https://api.whatsapp.com/send?phone=5511942057637&amp;text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os!%22" target="_blank">
+                        <img src="./assets/img/whatsapp.png" alt="Icone whatsapp" class="call-icon">
+                        <h2>Fale conosco</h2>
+                    </a>
+                </div>
             </div>
         </section>
     </main>
@@ -416,15 +412,16 @@
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper', {
+        var swiper = new Swiper('.swiper', {
             spaceBetween: 50,
             slidesPerView: 2,
             pagination : {
                 el: '.swiper-pagination',
                 type: 'bullets',
             },
+            
         });
-        const swiper_services = new Swiper('.swiper-services', {
+        var swiper_services = new Swiper('.swiper-services', {
             spaceBetween: 50,
             slidesPerView: 1,
             pagination : {

@@ -71,6 +71,19 @@
     color: var(--green-strong);
 }
 
+.contact-call {
+    font-family: Open Sans;
+    font-size: 2vw;
+    color: var(--green-strong);
+    text-align: center;
+    padding-bottom: 5vw;
+}
+
+.contact-right {
+    width: 30vw;
+    padding: 5vw 5vw;
+}
+
 @media screen and (max-width:425px) {
     .contact-map {
         display: none;
@@ -96,4 +109,7 @@
         height: 6vw;
     }
 
+    .contact-right {
+        width: 50vw;
+    }
 }

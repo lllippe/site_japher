@@ -25,6 +25,11 @@
     margin: 2vw 0;
 }
 
+.costura {
+    width: 30vw;
+    margin: 2vw 5vw;
+}
+
 .img-logo-clients {
     display: flex;
     flex-direction: column;
@@ -38,6 +43,14 @@
 
 .img-logo-item {
     width: 17vw;
+}
+
+.saude {
+    width: 10vw;
+}
+
+.large-logo {
+    width: 20vw;
 }
 
 .hr-divider-background {
@@ -99,5 +112,9 @@
 
     .header {
         margin-bottom: 6vw;
+    }
+
+    .saude {
+        width: 17vw;
     }
 }
